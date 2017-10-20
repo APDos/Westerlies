@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36BABE51F9A49C200265779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABE41F9A49C200265779 /* AppDelegate.swift */; };
+		A36BABE71F9A49C200265779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABE61F9A49C200265779 /* ViewController.swift */; };
+		A36BABEA1F9A49C200265779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BABE81F9A49C200265779 /* Main.storyboard */; };
+		A36BABEC1F9A49C200265779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36BABEB1F9A49C200265779 /* Assets.xcassets */; };
+		A36BABEF1F9A49C200265779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BABED1F9A49C200265779 /* LaunchScreen.storyboard */; };
+		A36BABFA1F9A49C200265779 /* WesterliesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABF91F9A49C200265779 /* WesterliesTests.swift */; };
+		A36BAC051F9A49C200265779 /* WesterliesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC041F9A49C200265779 /* WesterliesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A36BABF61F9A49C200265779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36BABD91F9A49C200265779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A36BABE01F9A49C200265779;
+			remoteInfo = Westerlies;
+		};
+		A36BAC011F9A49C200265779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36BABD91F9A49C200265779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A36BABE01F9A49C200265779;
+			remoteInfo = Westerlies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A36BABE11F9A49C200265779 /* Westerlies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westerlies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BABE41F9A49C200265779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A36BABE61F9A49C200265779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A36BABE91F9A49C200265779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A36BABEB1F9A49C200265779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A36BABEE1F9A49C200265779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A36BABF01F9A49C200265779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36BABF51F9A49C200265779 /* WesterliesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterliesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BABF91F9A49C200265779 /* WesterliesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterliesTests.swift; sourceTree = "<group>"; };
+		A36BABFB1F9A49C200265779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36BAC001F9A49C200265779 /* WesterliesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterliesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BAC041F9A49C200265779 /* WesterliesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterliesUITests.swift; sourceTree = "<group>"; };
+		A36BAC061F9A49C200265779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36BABDE1F9A49C200265779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABF21F9A49C200265779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABFD1F9A49C200265779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A36BABD81F9A49C200265779 = {
+			isa = PBXGroup;
+			children = (
+				A36BABE31F9A49C200265779 /* Westerlies */,
+				A36BABF81F9A49C200265779 /* WesterliesTests */,
+				A36BAC031F9A49C200265779 /* WesterliesUITests */,
+				A36BABE21F9A49C200265779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36BABE21F9A49C200265779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36BABE11F9A49C200265779 /* Westerlies.app */,
+				A36BABF51F9A49C200265779 /* WesterliesTests.xctest */,
+				A36BAC001F9A49C200265779 /* WesterliesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36BABE31F9A49C200265779 /* Westerlies */ = {
+			isa = PBXGroup;
+			children = (
+				A36BABE41F9A49C200265779 /* AppDelegate.swift */,
+				A36BABE61F9A49C200265779 /* ViewController.swift */,
+				A36BABE81F9A49C200265779 /* Main.storyboard */,
+				A36BABEB1F9A49C200265779 /* Assets.xcassets */,
+				A36BABED1F9A49C200265779 /* LaunchScreen.storyboard */,
+				A36BABF01F9A49C200265779 /* Info.plist */,
+			);
+			path = Westerlies;
+			sourceTree = "<group>";
+		};
+		A36BABF81F9A49C200265779 /* WesterliesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A36BABF91F9A49C200265779 /* WesterliesTests.swift */,
+				A36BABFB1F9A49C200265779 /* Info.plist */,
+			);
+			path = WesterliesTests;
+			sourceTree = "<group>";
+		};
+		A36BAC031F9A49C200265779 /* WesterliesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A36BAC041F9A49C200265779 /* WesterliesUITests.swift */,
+				A36BAC061F9A49C200265779 /* Info.plist */,
+			);
+			path = WesterliesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36BABE01F9A49C200265779 /* Westerlies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36BAC091F9A49C200265779 /* Build configuration list for PBXNativeTarget "Westerlies" */;
+			buildPhases = (
+				A36BABDD1F9A49C200265779 /* Sources */,
+				A36BABDE1F9A49C200265779 /* Frameworks */,
+				A36BABDF1F9A49C200265779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westerlies;
+			productName = Westerlies;
+			productReference = A36BABE11F9A49C200265779 /* Westerlies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A36BABF41F9A49C200265779 /* WesterliesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36BAC0C1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesTests" */;
+			buildPhases = (
+				A36BABF11F9A49C200265779 /* Sources */,
+				A36BABF21F9A49C200265779 /* Frameworks */,
+				A36BABF31F9A49C200265779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36BABF71F9A49C200265779 /* PBXTargetDependency */,
+			);
+			name = WesterliesTests;
+			productName = WesterliesTests;
+			productReference = A36BABF51F9A49C200265779 /* WesterliesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A36BABFF1F9A49C200265779 /* WesterliesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36BAC0F1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesUITests" */;
+			buildPhases = (
+				A36BABFC1F9A49C200265779 /* Sources */,
+				A36BABFD1F9A49C200265779 /* Frameworks */,
+				A36BABFE1F9A49C200265779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36BAC021F9A49C200265779 /* PBXTargetDependency */,
+			);
+			name = WesterliesUITests;
+			productName = WesterliesUITests;
+			productReference = A36BAC001F9A49C200265779 /* WesterliesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A36BABD91F9A49C200265779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Adam P Dostalik";
+				TargetAttributes = {
+					A36BABE01F9A49C200265779 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A36BABF41F9A49C200265779 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A36BABE01F9A49C200265779;
+					};
+					A36BABFF1F9A49C200265779 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A36BABE01F9A49C200265779;
+					};
+				};
+			};
+			buildConfigurationList = A36BABDC1F9A49C200265779 /* Build configuration list for PBXProject "Westerlies" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A36BABD81F9A49C200265779;
+			productRefGroup = A36BABE21F9A49C200265779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A36BABE01F9A49C200265779 /* Westerlies */,
+				A36BABF41F9A49C200265779 /* WesterliesTests */,
+				A36BABFF1F9A49C200265779 /* WesterliesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36BABDF1F9A49C200265779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BABEF1F9A49C200265779 /* LaunchScreen.storyboard in Resources */,
+				A36BABEC1F9A49C200265779 /* Assets.xcassets in Resources */,
+				A36BABEA1F9A49C200265779 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABF31F9A49C200265779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABFE1F9A49C200265779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36BABDD1F9A49C200265779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BABE71F9A49C200265779 /* ViewController.swift in Sources */,
+				A36BABE51F9A49C200265779 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABF11F9A49C200265779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BABFA1F9A49C200265779 /* WesterliesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BABFC1F9A49C200265779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BAC051F9A49C200265779 /* WesterliesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36BABF71F9A49C200265779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A36BABE01F9A49C200265779 /* Westerlies */;
+			targetProxy = A36BABF61F9A49C200265779 /* PBXContainerItemProxy */;
+		};
+		A36BAC021F9A49C200265779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A36BABE01F9A49C200265779 /* Westerlies */;
+			targetProxy = A36BAC011F9A49C200265779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A36BABE81F9A49C200265779 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36BABE91F9A49C200265779 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A36BABED1F9A49C200265779 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36BABEE1F9A49C200265779 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A36BAC071F9A49C200265779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A36BAC081F9A49C200265779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36BAC0A1F9A49C200265779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = Westerlies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.Westerlies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A36BAC0B1F9A49C200265779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = Westerlies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.Westerlies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A36BAC0D1F9A49C200265779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = WesterliesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.WesterliesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westerlies.app/Westerlies";
+			};
+			name = Debug;
+		};
+		A36BAC0E1F9A49C200265779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = WesterliesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.WesterliesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westerlies.app/Westerlies";
+			};
+			name = Release;
+		};
+		A36BAC101F9A49C200265779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = WesterliesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.WesterliesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westerlies;
+			};
+			name = Debug;
+		};
+		A36BAC111F9A49C200265779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R382BR47;
+				INFOPLIST_FILE = WesterliesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adamdostalik.WesterliesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westerlies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36BABDC1F9A49C200265779 /* Build configuration list for PBXProject "Westerlies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36BAC071F9A49C200265779 /* Debug */,
+				A36BAC081F9A49C200265779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36BAC091F9A49C200265779 /* Build configuration list for PBXNativeTarget "Westerlies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36BAC0A1F9A49C200265779 /* Debug */,
+				A36BAC0B1F9A49C200265779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36BAC0C1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36BAC0D1F9A49C200265779 /* Debug */,
+				A36BAC0E1F9A49C200265779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36BAC0F1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36BAC101F9A49C200265779 /* Debug */,
+				A36BAC111F9A49C200265779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A36BABD91F9A49C200265779 /* Project object */;
+}
