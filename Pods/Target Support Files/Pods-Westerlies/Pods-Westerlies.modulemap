@@ -1,0 +1,6 @@
+framework module Pods_Westerlies {
+  umbrella header "Pods-Westerlies-umbrella.h"
+
+  export *
+  module * { export * }
+}

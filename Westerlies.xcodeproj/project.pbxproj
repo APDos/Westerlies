@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82DEE27ED55F1252431E0EA0 /* Pods_WesterliesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9008022585B8CD82430671F /* Pods_WesterliesUITests.framework */; };
 		A36BABE51F9A49C200265779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABE41F9A49C200265779 /* AppDelegate.swift */; };
 		A36BABE71F9A49C200265779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABE61F9A49C200265779 /* ViewController.swift */; };
 		A36BABEA1F9A49C200265779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BABE81F9A49C200265779 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		A36BABEF1F9A49C200265779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BABED1F9A49C200265779 /* LaunchScreen.storyboard */; };
 		A36BABFA1F9A49C200265779 /* WesterliesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BABF91F9A49C200265779 /* WesterliesTests.swift */; };
 		A36BAC051F9A49C200265779 /* WesterliesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC041F9A49C200265779 /* WesterliesUITests.swift */; };
+		A36BAC131F9A4ABA00265779 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A36BAC121F9A4ABA00265779 /* GoogleService-Info.plist */; };
+		A36BAC151F9A4B5600265779 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC141F9A4B5600265779 /* Singleton.swift */; };
+		A36BAC171F9A4B7800265779 /* BatchLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC161F9A4B7800265779 /* BatchLabelVC.swift */; };
+		A36BAC191F9A4B9600265779 /* CasesNeededVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC181F9A4B9600265779 /* CasesNeededVC.swift */; };
+		A36BAC1B1F9A4BBD00265779 /* VolumesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC1A1F9A4BBD00265779 /* VolumesVC.swift */; };
+		A36BAC1D1F9A4BE200265779 /* BatchListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC1C1F9A4BE200265779 /* BatchListVC.swift */; };
+		A36BAC1F1F9A4BFD00265779 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BAC1E1F9A4BFD00265779 /* Batch.swift */; };
+		DC8D192D6CB600A5DBB92DEB /* Pods_WesterliesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820479217460DEFE7EA4543D /* Pods_WesterliesTests.framework */; };
+		EA782B2FF0498F57C44F6532 /* Pods_Westerlies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C201AC2B1DCA7D728748028 /* Pods_Westerlies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		294DE7EC697FE6BD07C1C7A8 /* Pods-WesterliesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesterliesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WesterliesUITests/Pods-WesterliesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ADB596B0FD7290819C25277 /* Pods-WesterliesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesterliesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WesterliesUITests/Pods-WesterliesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		502CC49BFDFDE3C2CDF4EC05 /* Pods-WesterliesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesterliesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WesterliesTests/Pods-WesterliesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69DA6CC5EB3B4E2C87AD737A /* Pods-Westerlies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westerlies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Westerlies/Pods-Westerlies.debug.xcconfig"; sourceTree = "<group>"; };
+		7C201AC2B1DCA7D728748028 /* Pods_Westerlies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Westerlies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820479217460DEFE7EA4543D /* Pods_WesterliesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WesterliesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BB86E2D4664B7A1BB76134 /* Pods-WesterliesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesterliesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WesterliesTests/Pods-WesterliesTests.release.xcconfig"; sourceTree = "<group>"; };
 		A36BABE11F9A49C200265779 /* Westerlies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westerlies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BABE41F9A49C200265779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36BABE61F9A49C200265779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,15 @@
 		A36BAC001F9A49C200265779 /* WesterliesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterliesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BAC041F9A49C200265779 /* WesterliesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterliesUITests.swift; sourceTree = "<group>"; };
 		A36BAC061F9A49C200265779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36BAC121F9A4ABA00265779 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Westerlies/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A36BAC141F9A4B5600265779 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		A36BAC161F9A4B7800265779 /* BatchLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchLabelVC.swift; sourceTree = "<group>"; };
+		A36BAC181F9A4B9600265779 /* CasesNeededVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesNeededVC.swift; sourceTree = "<group>"; };
+		A36BAC1A1F9A4BBD00265779 /* VolumesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumesVC.swift; sourceTree = "<group>"; };
+		A36BAC1C1F9A4BE200265779 /* BatchListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchListVC.swift; sourceTree = "<group>"; };
+		A36BAC1E1F9A4BFD00265779 /* Batch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
+		A810B714E1BECC2ACFC69E6C /* Pods-Westerlies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westerlies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Westerlies/Pods-Westerlies.release.xcconfig"; sourceTree = "<group>"; };
+		F9008022585B8CD82430671F /* Pods_WesterliesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WesterliesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA782B2FF0498F57C44F6532 /* Pods_Westerlies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8D192D6CB600A5DBB92DEB /* Pods_WesterliesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +96,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DEE27ED55F1252431E0EA0 /* Pods_WesterliesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C476D073EAD942AB3044360 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69DA6CC5EB3B4E2C87AD737A /* Pods-Westerlies.debug.xcconfig */,
+				A810B714E1BECC2ACFC69E6C /* Pods-Westerlies.release.xcconfig */,
+				502CC49BFDFDE3C2CDF4EC05 /* Pods-WesterliesTests.debug.xcconfig */,
+				95BB86E2D4664B7A1BB76134 /* Pods-WesterliesTests.release.xcconfig */,
+				4ADB596B0FD7290819C25277 /* Pods-WesterliesUITests.debug.xcconfig */,
+				294DE7EC697FE6BD07C1C7A8 /* Pods-WesterliesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E7A68E200885A7DC3C0B32C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C201AC2B1DCA7D728748028 /* Pods_Westerlies.framework */,
+				820479217460DEFE7EA4543D /* Pods_WesterliesTests.framework */,
+				F9008022585B8CD82430671F /* Pods_WesterliesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A36BABD81F9A49C200265779 = {
 			isa = PBXGroup;
 			children = (
+				A36BAC121F9A4ABA00265779 /* GoogleService-Info.plist */,
 				A36BABE31F9A49C200265779 /* Westerlies */,
 				A36BABF81F9A49C200265779 /* WesterliesTests */,
 				A36BAC031F9A49C200265779 /* WesterliesUITests */,
 				A36BABE21F9A49C200265779 /* Products */,
+				0C476D073EAD942AB3044360 /* Pods */,
+				2E7A68E200885A7DC3C0B32C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +158,12 @@
 				A36BABEB1F9A49C200265779 /* Assets.xcassets */,
 				A36BABED1F9A49C200265779 /* LaunchScreen.storyboard */,
 				A36BABF01F9A49C200265779 /* Info.plist */,
+				A36BAC141F9A4B5600265779 /* Singleton.swift */,
+				A36BAC161F9A4B7800265779 /* BatchLabelVC.swift */,
+				A36BAC181F9A4B9600265779 /* CasesNeededVC.swift */,
+				A36BAC1A1F9A4BBD00265779 /* VolumesVC.swift */,
+				A36BAC1C1F9A4BE200265779 /* BatchListVC.swift */,
+				A36BAC1E1F9A4BFD00265779 /* Batch.swift */,
 			);
 			path = Westerlies;
 			sourceTree = "<group>";
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36BAC091F9A49C200265779 /* Build configuration list for PBXNativeTarget "Westerlies" */;
 			buildPhases = (
+				392F81926E78E91CBDB61E15 /* [CP] Check Pods Manifest.lock */,
 				A36BABDD1F9A49C200265779 /* Sources */,
 				A36BABDE1F9A49C200265779 /* Frameworks */,
 				A36BABDF1F9A49C200265779 /* Resources */,
+				8CEB38979FC68C10EE390526 /* [CP] Embed Pods Frameworks */,
+				38C06ED378C85AC24E3BE3F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36BAC0C1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesTests" */;
 			buildPhases = (
+				EF063110FD85ED0F72108A57 /* [CP] Check Pods Manifest.lock */,
 				A36BABF11F9A49C200265779 /* Sources */,
 				A36BABF21F9A49C200265779 /* Frameworks */,
 				A36BABF31F9A49C200265779 /* Resources */,
+				E1CD8A0DB38C5436A741959A /* [CP] Embed Pods Frameworks */,
+				A5DB72E988DFE2224543AD4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36BAC0F1F9A49C200265779 /* Build configuration list for PBXNativeTarget "WesterliesUITests" */;
 			buildPhases = (
+				CBDE1BB67709975C844BF9F3 /* [CP] Check Pods Manifest.lock */,
 				A36BABFC1F9A49C200265779 /* Sources */,
 				A36BABFD1F9A49C200265779 /* Frameworks */,
 				A36BABFE1F9A49C200265779 /* Resources */,
+				6AF4DD82F7DD6F0E4183CE03 /* [CP] Embed Pods Frameworks */,
+				4483F705F9BF012855A43E1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36BABEF1F9A49C200265779 /* LaunchScreen.storyboard in Resources */,
+				A36BAC131F9A4ABA00265779 /* GoogleService-Info.plist in Resources */,
 				A36BABEC1F9A49C200265779 /* Assets.xcassets in Resources */,
 				A36BABEA1F9A49C200265779 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +325,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38C06ED378C85AC24E3BE3F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westerlies/Pods-Westerlies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		392F81926E78E91CBDB61E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4483F705F9BF012855A43E1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesterliesUITests/Pods-WesterliesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF4DD82F7DD6F0E4183CE03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesterliesUITests/Pods-WesterliesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CEB38979FC68C10EE390526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westerlies/Pods-Westerlies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5DB72E988DFE2224543AD4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesterliesTests/Pods-WesterliesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDE1BB67709975C844BF9F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CD8A0DB38C5436A741959A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesterliesTests/Pods-WesterliesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF063110FD85ED0F72108A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A36BABDD1F9A49C200265779 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36BAC1F1F9A4BFD00265779 /* Batch.swift in Sources */,
+				A36BAC1B1F9A4BBD00265779 /* VolumesVC.swift in Sources */,
+				A36BAC191F9A4B9600265779 /* CasesNeededVC.swift in Sources */,
+				A36BAC171F9A4B7800265779 /* BatchLabelVC.swift in Sources */,
+				A36BAC1D1F9A4BE200265779 /* BatchListVC.swift in Sources */,
 				A36BABE71F9A49C200265779 /* ViewController.swift in Sources */,
+				A36BAC151F9A4B5600265779 /* Singleton.swift in Sources */,
 				A36BABE51F9A49C200265779 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +639,7 @@
 		};
 		A36BAC0A1F9A49C200265779 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DA6CC5EB3B4E2C87AD737A /* Pods-Westerlies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +655,7 @@
 		};
 		A36BAC0B1F9A49C200265779 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A810B714E1BECC2ACFC69E6C /* Pods-Westerlies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +671,7 @@
 		};
 		A36BAC0D1F9A49C200265779 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502CC49BFDFDE3C2CDF4EC05 /* Pods-WesterliesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +689,7 @@
 		};
 		A36BAC0E1F9A49C200265779 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BB86E2D4664B7A1BB76134 /* Pods-WesterliesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		A36BAC101F9A49C200265779 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADB596B0FD7290819C25277 /* Pods-WesterliesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +724,7 @@
 		};
 		A36BAC111F9A49C200265779 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294DE7EC697FE6BD07C1C7A8 /* Pods-WesterliesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

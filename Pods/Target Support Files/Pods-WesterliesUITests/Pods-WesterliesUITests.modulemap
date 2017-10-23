@@ -1,0 +1,6 @@
+framework module Pods_WesterliesUITests {
+  umbrella header "Pods-WesterliesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
